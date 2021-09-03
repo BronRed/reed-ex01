@@ -3,6 +3,9 @@ import java.util.Scanner;
 public class Solution01 {
     private static final Scanner in = new Scanner(System.in);
     public static void main(String[] args) {
+        //Prompt user for their name
+        //Read user's name from terminal input
+        //Greet user with their name
         System.out.print("What is your name? ");
         String name = in.nextLine();
         System.out.println("Hello, " + name + ", nice to meet you!");
